@@ -1,4 +1,4 @@
-﻿namespace CustomMovesetPack
+namespace CustomMovesetPack
 {
     using SideLoader;
     using BepInEx;
@@ -54,6 +54,7 @@
                 new Tuple<int, string[]>(IDs.palladiumSpearID,  new string[]{IDs.HolyTag}),
                 new Tuple<int, string[]>(IDs.palladiumSwordID,  new string[]{IDs.BastardTag, IDs.HolyTag, IDs.MaulShoveTag}),
                 new Tuple<int, string[]>(IDs.oldLanternID,  new string[]{IDs.HandsFreeTag}),
+                new Tuple<int, string[]>(IDs.lanternOfSouldID,  new string[]{IDs.HandsFreeTag}),
 
         }) if (ResourcesPrefabManager.Instance.GetItemPrefab(tup.Item1) is Item item) CustomItems.SetItemTags(item, tup.Item2, false);
         }
