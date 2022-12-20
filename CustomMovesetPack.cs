@@ -5,8 +5,10 @@ namespace CustomMovesetPack
     using System;
     using InstanceIDs;
     using CustomWeaponBehaviour;
+    using TinyHelper;
 
     [BepInPlugin(GUID, NAME, VERSION)]
+    [BepInDependency(TinyHelper.GUID, TinyHelper.VERSION)]
     [BepInDependency(CustomWeaponBehaviour.GUID, CustomWeaponBehaviour.VERSION)]
     public class CustomMovesetPack : BaseUnityPlugin
     {
@@ -56,7 +58,7 @@ namespace CustomMovesetPack
                 new Tuple<int, string[]>(IDs.oldLanternID,  new string[]{IDs.HandsFreeTag}),
                 new Tuple<int, string[]>(IDs.lanternOfSouldID,  new string[]{IDs.HandsFreeTag}),
 
-        }) if (ResourcesPrefabManager.Instance.GetItemPrefab(tup.Item1) is Item item) CustomItems.SetItemTags(item, tup.Item2, false);
+        }) if (ResourcesPrefabManager.Instance.GetItemPrefab(tup.Item1) is Item item) CustomItems.SetItemTags(item, TinyTagManager.GetSafeTags(tup.Item2), false);
         }
     }
 }
