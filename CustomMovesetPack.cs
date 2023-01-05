@@ -13,7 +13,7 @@ namespace CustomMovesetPack
     public class CustomMovesetPack : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.custommovesetpack";
-        public const string VERSION = "4.0.0";
+        public const string VERSION = "4.0.1";
         public const string NAME = "Custom Moveset Pack";
 
         //public const string sideloaderFolder = "CustomMovesetPack";

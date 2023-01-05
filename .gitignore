@@ -1,3 +1,6 @@
 bin/
 obj/
 public/
+CustomMovesetPack_thunderstore.zip
+resources/manifest.json
+thunderstore/
