@@ -56,8 +56,8 @@ namespace CustomMovesetPack
                 new Tuple<int, string[]>(IDs.palladiumShieldID,         new string[]{IDs.HolyTag}),
                 new Tuple<int, string[]>(IDs.palladiumSpearID,          new string[]{IDs.HolyTag}),
                 new Tuple<int, string[]>(IDs.palladiumSwordID,          new string[]{IDs.BastardTag, IDs.HolyTag, IDs.MaulShoveTag}),
-                new Tuple<int, string[]>(IDs.oldLanternID,              new string[]{IDs.HandsFreeTag}),
-                new Tuple<int, string[]>(IDs.lanternOfSouldID,          new string[]{IDs.HandsFreeTag}),
+                //new Tuple<int, string[]>(IDs.oldLanternID,              new string[]{IDs.HandsFreeTag}),
+                //new Tuple<int, string[]>(IDs.lanternOfSouldID,          new string[]{IDs.HandsFreeTag}),
 
                 // new Tuple<int, string[]>(IDs.virginKnucklesID,          new string[]{IDs.PointyTag}),
                 // new Tuple<int, string[]>(IDs.cannonPistolID,            new string[]{IDs.PointyTag}),
