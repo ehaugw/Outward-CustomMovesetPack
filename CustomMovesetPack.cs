@@ -6,6 +6,7 @@ namespace CustomMovesetPack
     using InstanceIDs;
     using CustomWeaponBehaviour;
     using TinyHelper;
+    using System.IO;
 
     [BepInPlugin(GUID, NAME, VERSION)]
     [BepInDependency(TinyHelper.GUID, TinyHelper.VERSION)]
@@ -16,7 +17,7 @@ namespace CustomMovesetPack
         public const string VERSION = "4.0.2";
         public const string NAME = "Custom Moveset Pack";
 
-        //public const string sideloaderFolder = "CustomMovesetPack";
+        public static string ModFolderName = Directory.GetParent(typeof(CustomMovesetPack).Assembly.Location).Name.ToString();
 
         internal void Awake()
         {
@@ -25,7 +26,10 @@ namespace CustomMovesetPack
 
         private void OnPackLoaded()
         {
+            IronSword.MakeItem();
+
             foreach (var tup in new Tuple<int, string[]>[] {
+                new Tuple<int, string[]>(IDs.ironSwordID,               new string[]{IDs.BastardTag}),
                 new Tuple<int, string[]>(IDs.ceruleanSabreID,           new string[]{IDs.FinesseTag}),
                 new Tuple<int, string[]>(IDs.steelSabreID,              new string[]{IDs.FinesseTag}),
                 new Tuple<int, string[]>(IDs.macheteID,                 new string[]{IDs.FinesseTag}),

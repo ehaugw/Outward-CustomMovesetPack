@@ -2,6 +2,7 @@ modname = CustomMovesetPack
 gamepath = /mnt/c/Program\ Files\ \(x86\)/Steam/steamapps/common/Outward/Outward_Defed
 pluginpath = BepInEx/plugins
 sideloaderpath = $(pluginpath)/$(modname)/SideLoader
+unityassetbundles = resources/assetbundles
 
 dependencies = CustomWeaponBehaviour TinyHelper HolyDamageManager
 
@@ -13,6 +14,20 @@ assemble:
 	for dependency in $(dependencies) ; do \
 		cp -u ../$${dependency}/bin/$${dependency}.dll public/$(pluginpath)/$(modname)/ ; \
 	done
+	
+	# sideloader specific
+	mkdir -p public/$(sideloaderpath)/Items
+	mkdir -p public/$(sideloaderpath)/Texture2D
+	mkdir -p public/$(sideloaderpath)/AssetBundles
+	
+	mkdir -p public/$(sideloaderpath)/Items/IronSword/Textures/mat_itm_longsword
+	cp  -u  resources/icons/iron_sword.png          public/$(sideloaderpath)/Items/IronSword/Textures/icon.png
+	cp  -u  resources/textures/iron_sword_gen.png   public/$(sideloaderpath)/Items/IronSword/Textures/mat_itm_longsword/_GenTex.png
+	cp  -u  resources/textures/iron_sword_main.png  public/$(sideloaderpath)/Items/IronSword/Textures/mat_itm_longsword/_MainTex.png
+	cp  -u  resources/textures/iron_sword_norm.png  public/$(sideloaderpath)/Items/IronSword/Textures/mat_itm_longsword/_NormTex.png
+	cp  -u  resources/textures/iron_sword.xml       public/$(sideloaderpath)/Items/IronSword/Textures/mat_itm_longsword/properties.xml
+
+	cp  -u  $(unityassetbundles)/iron_sword         public/$(sideloaderpath)/AssetBundles/iron_sword
 	
 publish:
 	make clean
