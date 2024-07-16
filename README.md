@@ -1,7 +1,7 @@
 [Mods by ehaugw](https://outward.thunderstore.io/package/ehaugw/ "Mods by ehaugw") | Support me on [Patreon](https://www.patreon.com/ehaugw "Patreon")
 
 
-This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at July 10, 2024. Due to significant changes in a few mod frameworks' infrastructures, it is recommended that you update all mods that are older than November 08, 2022.
+This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at July 16, 2024. 
 
 
 
@@ -12,26 +12,6 @@ What's the purpose of "Custom Moveset Pack"?
 * Provide interesting moveset combinations to the user.
 * Introduce significant variations between weapons of the same type.
 * Make rarely used weapons more viable by giving them better movesets rather than better stats.
-
-Manual Installation
-
-* Ensure that you are opted in to the **default-mono** branch.
-* Ensure that [BepInEx](https://outward.thunderstore.io/package/BepInEx/BepInExPack_Outward/ "BepInEx") is installed.
-* Make sure all **dependencies** are installed. The mod **depends** on these and will not work without them!
-
-  * **[Outward SideLoader](https://outward.thunderstore.io/package/sinai-dev/SideLoader/ "Outward SideLoader")**
-  * **[BepInEx](https://outward.thunderstore.io/package/BepInEx/BepInExPack_Outward/ "BepInEx")**
-* Uninstall previous versions of the mod.
-* Download "CustomMovesetPack.zip".
-* Move "CustomMovesetPack.zip" into the "Outward" game folder.
-* Right click "CustomMovesetPack.zip" and click "Extract Here".
-
-Manual Uninstallation
-
-* Version 1.0.0
-
-  * Navigate to "Outward/BepInEx/plugins/".
-  * Delete the "CustomMovesetPack" folder.
 
 
 
@@ -92,9 +72,61 @@ Every item affected by this mod features a modified description that implies the
 # Patch notes
 
 
+* Version 4.0.4
+
+  * Bump version to include new CustomWeaponBehavior version with improved maul shove speeds and impact damages
+* Version 4.0.3
+
+  * Fix running attack bug.
+* Version 4.0.2
+
+  * Iron Sword is a [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") weapon.
+* Version 4.0.1
+
+  * Update to work with thunderstore.
+* Version 4.0.0
+
+  * updated for Definitive Edition.
+  * Fixed a bug in CustomWeaponBehavior that caused multi-hit skills to not apply hits after the first.
+  * Fixed a bug in CustomWeaponBehavior that casued wind imbue to bug out.
+* Version 3.2.0
+
+  * Added palladium weapons to the pack.
+* Version 3.1.0
+
+  * Patched for support with other mods that include the CustomWeaponBehavior.dll
+  * Added Brutal Axe, Obisidian Sword, Prayer Claymore and Wolf Axe to the list of alternated weapons
+* Version 3.0.0
+
+  * Can be played with (and only with) the base game update related to The Three Brothers.
+* Version 2.0.1
+
+  * Fixed heavy->heavy combos for axe movesets
+  * [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard")
+
+    * Speed Bonus: 0 -> 0.1
+    * Damage Bonus: Only applied to weapon base damage
+  * [Holy](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Holy")
+
+    * Damage conversion: 30% -> 20%
+  * **HolyDamageManager**
+
+    * Added support for **HolyDamageManager**, which is used to set conveniently set the damage type of damage sources that are considered to be of divine origin.
+    * The following effects is affected by the type specificed by **HolyDamageManager**:
+
+      * [Holy](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Holy")
+* Version 2.0.0
+
+  * Can be played with (and only with) the base game update that happened on 16th of June, 2020.
+* Version 1.3.0
+
+  * Patched to support the most recent [Outward SideLoader](https://outward.thunderstore.io/package/sinai-dev/SideLoader/ "Outward SideLoader")
+  * Added: [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") weapons can be used with two-handed weapon skills.
 
 
-# Other mods by [ehaugw](https://www.nexusmods.com/users/51266516 "ehaugw") (this list may be outdated)
+
+
+# Other mods by [ehaugw](https://thunderstore.io/c/outward/p/ehaugw/ "ehaugw") (this list may be outdated)
 
 
 * [Anti Alchemy Abuse](https://outward.thunderstore.io/package/ehaugw/AntiAlchemyAbuse/ "Anti Alchemy Abuse")
@@ -136,6 +168,9 @@ Every item affected by this mod features a modified description that implies the
 * [Martial Artist](https://outward.thunderstore.io/package/ehaugw/MartialArtist/ "Martial Artist")
 
   * Provide some simple mechanics, locked behind basic skills, to add some depth to combat
+* [Vagabond](https://outward.thunderstore.io/package/ehaugw/Vagabond/ "Vagabond")
+
+  * Provide positional mechanics, beast taming, dirty tricks and an enhanced survival experience.
 
 
 
@@ -143,3 +178,23 @@ Every item affected by this mod features a modified description that implies the
 # Credits
 
 Thanks to **Sinai** for making the [Outward Explorer](https://github.com/sinaioutlander/Outward-Mods/tree/master/Explorer "Outward Explorer"), and always beeing up for discussing solutions to anything.
+Manual Installation
+
+* Ensure that you are opted in to the **default-mono** branch.
+* Ensure that [BepInEx](https://outward.thunderstore.io/package/BepInEx/BepInExPack_Outward/ "BepInEx") is installed.
+* Make sure all **dependencies** are installed. The mod **depends** on these and will not work without them!
+
+  * **[Outward SideLoader](https://outward.thunderstore.io/package/sinai-dev/SideLoader/ "Outward SideLoader")**
+  * **[BepInEx](https://outward.thunderstore.io/package/BepInEx/BepInExPack_Outward/ "BepInEx")**
+* Uninstall previous versions of the mod.
+* Download "CustomMovesetPack.zip".
+* Move "CustomMovesetPack.zip" into the "Outward" game folder.
+* Right click "CustomMovesetPack.zip" and click "Extract Here".
+
+Manual Uninstallation
+
+* Version 1.0.0
+
+  * Navigate to "Outward/BepInEx/plugins/".
+  * Delete the "CustomMovesetPack" folder.
+
