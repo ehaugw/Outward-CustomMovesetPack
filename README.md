@@ -1,7 +1,7 @@
 [Mods by ehaugw](https://outward.thunderstore.io/package/ehaugw/ "Mods by ehaugw") | Support me on [Patreon](https://www.patreon.com/ehaugw "Patreon")
 
 
-This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at July 16, 2024. 
+This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at August 07, 2024. 
 
 
 
@@ -40,31 +40,36 @@ These are the weapons that has a lore related reason to be holy weapons. Weapons
 Every item affected by this mod features a modified description that implies their behaviour. Still, you may be interested in a complete list of affected weapons, so here you go:
 
 
-* Cerulean Sabre (Finesse)
-* Steel Sabre (Finesse)
-* Machete (Finesse)
-* Golden Machete (Finesse)
-* Marble Sword (Bastard)
-* Old Legion Gladius (Finesse)
-* Desert Khopesh (Finesse)
-* Jade Scimitar (Finesse)
-* Tsar Sword (Bastard)
-* Wolf Sword (Bastard, Holy)
-* Palladium Sword (Bastard, Holy)
-* Palladium Axe (Bastard, Holy)
-* Palladium Claymore (Holy)
-* Palladium Greataxe (Holy)
-* Palladium Greathammer (Holy)
-* Palladium Halberd (Holy)
-* Palladium Knuckles (Holy)
-* Palladium Mace (Bastard, Holy)
-* Palladium Shield (Holy)
-* Palladium Spear (Holy)
-* Brutal Club (Bastard)
-* Obsidian Sword (Bastard)
-* Brutal Axe (Bastard)
-* Prayer Claymore (Holy)
-* Wolf Axe (Holy)
+* IronSword: (Bastard)
+* CeruleanSabre: (Finesse)
+* SteelSabre: (Finesse)
+* Machete: (Finesse)
+* GoldenMachete: (Finesse)
+* MarbleSword: (Bastard,MaulShove)
+* MarbleAxe: (Bastard)
+* OldLegionGladius: (Finesse)
+* DeserKhopesh: (Finesse)
+* JadeScimitar: (Finesse)
+* TsarSword: (Bastard)
+* WolfSword: (Bastard,Holy)
+* BrutalClub: (Bastard)
+* ObsianSword: (Bastard)
+* BrutalAxe: (Bastard)
+* PrayerClaymore: (Holy,MaulShove)
+* WolfAxe: (Holy)
+* GoldLichSword: (Bastard)
+* FangSword: (Finesse)
+* VirginSword: (Bastard,MaulShove)
+* PalladiumAxe: (Bastard,Holy)
+* PalladiumClaymore: (Holy,MaulShove)
+* PalladiumGreataxe: (Holy)
+* PalladiumGreathammer: (Holy)
+* PalladiumHalberd: (Holy)
+* PalladiumKnuckles: (Holy)
+* PalladiumMace: (Bastard,Holy)
+* PalladiumShield: (Holy)
+* PalladiumSpear: (Holy)
+* PalladiumSword: (Bastard,Holy,MaulShove)
 
 
 
@@ -72,6 +77,9 @@ Every item affected by this mod features a modified description that implies the
 # Patch notes
 
 
+* Version 4.0.4
+
+  * **Virgin Sword** is now both [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") and **Shove**
 * Version 4.0.4
 
   * Bump version to include new CustomWeaponBehavior version with improved maul shove speeds and impact damages
@@ -171,6 +179,9 @@ Every item affected by this mod features a modified description that implies the
 * [Vagabond](https://outward.thunderstore.io/package/ehaugw/Vagabond/ "Vagabond")
 
   * Provide positional mechanics, beast taming, dirty tricks and an enhanced survival experience.
+* [Weapon Repair Kit](https://thunderstore.io/c/outward/p/ehaugw/WeaponRepairKit "Weapon Repair Kit")
+
+  * Repair your weapons on the fly!
 
 
 
