@@ -14,7 +14,7 @@ namespace CustomMovesetPack
     public class CustomMovesetPack : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.custommovesetpack";
-        public const string VERSION = "4.0.4";
+        public const string VERSION = "4.0.5";
         public const string NAME = "Custom Moveset Pack";
 
         public static string ModFolderName = Directory.GetParent(typeof(CustomMovesetPack).Assembly.Location).Name.ToString();
@@ -47,8 +47,8 @@ namespace CustomMovesetPack
                 new Tuple<int, string[]>(IDs.prayerClaymoreID,          new string[]{IDs.HolyTag, IDs.MaulShoveTag}),
                 new Tuple<int, string[]>(IDs.wolfAxeID,                 new string[]{IDs.HolyTag}),
                 new Tuple<int, string[]>(IDs.goldLichSwordID,           new string[]{IDs.BastardTag}),
-
                 new Tuple<int, string[]>(IDs.fangSwordID,               new string[]{IDs.FinesseTag}),
+                new Tuple<int, string[]>(IDs.virginSwordID,             new string[]{IDs.BastardTag, IDs.MaulShoveTag}),
 
                 new Tuple<int, string[]>(IDs.palladiumAxeID,            new string[]{IDs.BastardTag, IDs.HolyTag}),
                 new Tuple<int, string[]>(IDs.palladiumClaymoreID,       new string[]{IDs.HolyTag, IDs.MaulShoveTag}),
