@@ -14,7 +14,7 @@ namespace CustomMovesetPack
     public class CustomMovesetPack : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.custommovesetpack";
-        public const string VERSION = "4.0.5";
+        public const string VERSION = "4.0.6";
         public const string NAME = "Custom Moveset Pack";
 
         public static string ModFolderName = Directory.GetParent(typeof(CustomMovesetPack).Assembly.Location).Name.ToString();

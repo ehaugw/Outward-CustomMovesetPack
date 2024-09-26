@@ -1,7 +1,7 @@
 [Mods by ehaugw](https://outward.thunderstore.io/package/ehaugw/ "Mods by ehaugw") | Support me on [Patreon](https://www.patreon.com/ehaugw "Patreon")
 
 
-This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at August 07, 2024. 
+This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at September 27, 2024. 
 
 
 
@@ -45,7 +45,7 @@ Every item affected by this mod features a modified description that implies the
 * SteelSabre: (Finesse)
 * Machete: (Finesse)
 * GoldenMachete: (Finesse)
-* MarbleSword: (Bastard,MaulShove)
+* MarbleSword: (Bastard,Shove)
 * MarbleAxe: (Bastard)
 * OldLegionGladius: (Finesse)
 * DeserKhopesh: (Finesse)
@@ -55,13 +55,13 @@ Every item affected by this mod features a modified description that implies the
 * BrutalClub: (Bastard)
 * ObsianSword: (Bastard)
 * BrutalAxe: (Bastard)
-* PrayerClaymore: (Holy,MaulShove)
+* PrayerClaymore: (Holy,Shove)
 * WolfAxe: (Holy)
 * GoldLichSword: (Bastard)
 * FangSword: (Finesse)
-* VirginSword: (Bastard,MaulShove)
+* VirginSword: (Bastard,Shove)
 * PalladiumAxe: (Bastard,Holy)
-* PalladiumClaymore: (Holy,MaulShove)
+* PalladiumClaymore: (Holy,Shove)
 * PalladiumGreataxe: (Holy)
 * PalladiumGreathammer: (Holy)
 * PalladiumHalberd: (Holy)
@@ -69,7 +69,7 @@ Every item affected by this mod features a modified description that implies the
 * PalladiumMace: (Bastard,Holy)
 * PalladiumShield: (Holy)
 * PalladiumSpear: (Holy)
-* PalladiumSword: (Bastard,Holy,MaulShove)
+* PalladiumSword: (Bastard,Holy,Shove)
 
 
 
@@ -77,7 +77,10 @@ Every item affected by this mod features a modified description that implies the
 # Patch notes
 
 
-* Version 4.0.4
+* Version 4.0.6
+
+  * Make **Iron Sword** work with imbue visual effects.
+* Version 4.0.5
 
   * **Virgin Sword** is now both [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") and **Shove**
 * Version 4.0.4
@@ -182,6 +185,9 @@ Every item affected by this mod features a modified description that implies the
 * [Weapon Repair Kit](https://thunderstore.io/c/outward/p/ehaugw/WeaponRepairKit "Weapon Repair Kit")
 
   * Repair your weapons on the fly!
+* [Rune of Protection](https://thunderstore.io/c/outward/p/ehaugw/RuneOfProtection "Rune of Protection")
+
+  * Enable manaless characters to gain Runic Protection through a limited consumable
 
 
 
