@@ -1,7 +1,7 @@
 [Mods by ehaugw](https://outward.thunderstore.io/package/ehaugw/ "Mods by ehaugw") | Support me on [Patreon](https://www.patreon.com/ehaugw "Patreon")
 
 
-This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at September 27, 2024. 
+This mods was confirmed to work with the (at that time) current base game (Outward Definitive Edition) at September 29, 2024. 
 
 
 
@@ -77,12 +77,15 @@ Every item affected by this mod features a modified description that implies the
 # Patch notes
 
 
+* Version 4.0.7
+
+  * Use new version of CustomWeaponBehavior, CustomGrip and BaseDamageModifiers
 * Version 4.0.6
 
   * Make **Iron Sword** work with imbue visual effects.
 * Version 4.0.5
 
-  * **Virgin Sword** is now both [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") and **Shove**
+  * **Virgin Sword** is now both [Bastard](https://outward.thunderstore.io/package/ehaugw/CustomMovesetPack/ "Bastard") and Brawler
 * Version 4.0.4
 
   * Bump version to include new CustomWeaponBehavior version with improved maul shove speeds and impact damages
