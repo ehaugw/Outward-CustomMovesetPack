@@ -4,7 +4,7 @@ pluginpath = BepInEx/plugins
 sideloaderpath = $(pluginpath)/$(modname)/SideLoader
 unityassetbundles = resources/assetbundles
 
-dependencies = CustomWeaponBehaviour TinyHelper HolyDamageManager
+dependencies = CustomWeaponBehaviour TinyHelper HolyDamageManager BaseDamageModifier CustomGrip
 
 assemble:
 	# common for all mods
